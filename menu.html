@@ -9,6 +9,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- <link href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link href="css/styles.css" rel="stylesheet">
 </head>
@@ -29,10 +30,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./index.html"> <span class="fa fa-home fa-lg"></span> Home</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a>
                     </li>
                     <li class="nav-item">
@@ -65,21 +66,77 @@
             <li class="breadcrumb-item active" aria-current="page">Menu</li>
         </ol>
     </nav>
-
+    <!--  -->
     <div class="container">
-
-        <div class="row">
-            <div class="col-12">
-                <h3>Menu</h3>
-                <hr>
-            </div>
-        </div>
-
         <div class="row row-content">
-            <div class="col-12 col-sm-6">
-                <h2>Under heavy construction!!</h2>
+            <div class="col-12">
+                <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="mask flex-center">
+                                <div class="container">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-7 col-12 order-md-1 order-2">
+                                            <h4>White chocolate</h4>
+                                            <p style="color: black;">The first words that came up in our staff tasting
+                                                in response
+                                                to<br> Le Chocolat's mellow white chocolate were “milky,” “creamy,” and
+                                                “dairy.”</p>
+                                            <a href="./index.html">BUY NOW</a>
+                                        </div>
+                                        <div class="col-md-5 col-12 order-md-2 order-1"><img src="images/whitechol.jpg"
+                                                class="mx-auto" alt="slide"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="mask flex-center">
+                                <div class="container">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-7 col-12 order-md-1 order-2">
+                                            <h4>Dark chocolate</h4>
+                                            <p style="color: black;">Dark chocolate: once considered a rare treat
+                                                is now mainstream. It’s become the snack of choice
+                                                for healthy eaters.</p>
+                                            <a href="./index.html">BUY NOW</a>
+                                        </div>
+                                        <div class="col-md-5 col-12 order-md-2 order-1"><img src="images/darkchocol.svg"
+                                                class="mx-auto" alt="slide"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="mask flex-center">
+                                <div class="container">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-7 col-12 order-md-1 order-2">
+                                            <h4>Milk chocolate</h4>
+                                            <p style="color: black;">If you're into mega-sweet milk chocolate, this
+                                                one's for you.
+                                                "It's "like I'm eating the ear off a giant bunny." Though
+                                                many loved the sugary flavor, a few testers felt that the texture
+                                                was chalky," said one tester.
+                                                said it</p>
+                                            <a href="./index.html">BUY NOW</a>
+                                        </div>
+                                        <div class="col-md-5 col-12 order-md-2 order-1"><img src="images/milkchoc.jpg"
+                                                class="mx-auto" alt="slide"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        <!--  -->
+
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev"> <span
+                class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next"> <span
+                class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
     </div>
 
     <footer class="footer">
@@ -138,6 +195,11 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script> src = "js/scripts.js"</script>
+    <!--  -->
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!--  -->
 </body>
 
 </html>

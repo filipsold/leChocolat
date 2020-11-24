@@ -7,3 +7,7 @@ $(document).docready(function () {
         $("#mycarousel").carousel('cycle');
     });
 });
+// 
+$('#myCarousel').carousel({
+    interval: 3000,
+ })
